@@ -1,0 +1,32 @@
+exports[`Header test renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "paddingVertical": 6,
+      "width": "60%",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#273874",
+        "fontSize": 13,
+        "fontWeight": "450",
+      }
+    }
+  >
+    Enter Author name
+  </Text>
+  <TextInput
+    accessibilityLabel="input values"
+    allowFontScaling={true}
+    autoCapitalize="none"
+    onChangeText={[MockFunction]}
+    rejectResponderTermination={true}
+    style={Object {}}
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
